@@ -12,14 +12,14 @@ export const tabs = [
 
 export const App = () => (
   <div className="section">
-    <h1 className="title">Selected tab is Tab 1</h1>
+    <h1 className="title">Selected tab is {tabs.title}</h1>
 
     <div data-cy="TabsComponent">
       <div className="tabs is-boxed">
         <ul>
           <li className="is-active" data-cy="Tab">
             <a href="#tab-1" data-cy="TabLink">
-              Tab 1
+              {tabs[0].title}
             </a>
             {/* Link for Tab 1 */}
           </li>
