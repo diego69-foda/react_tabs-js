@@ -40,6 +40,6 @@ export const App = () => (
         </ul>
       </div>
     </div>
-    <Tabs />
+    <Tabs tabs={tabs} />
   </div>
 );
